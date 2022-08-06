@@ -311,11 +311,6 @@
         transform: scale(1.0);
         margin-top: 70px;
     }
-
-    .navbarmenu {
-        display: none;
-    }
-
     
     .menu-hamb {
         display: flex;
@@ -337,29 +332,52 @@
     }
 
     .onetwotree.on{
-        position: normal;
+        display: normal;
         margin-top: 48px;
         margin-right: 10px;
     }
-
-    .two {
-        transition: all;
-        transition-duration: 0.2s;
-    }
-
+    
     .menu-hamb.on .one {
-        transition: all;
-        transition-duration: 0.2s;
+        width: 28px;
     }
 
-    .navbarbutton.on {
-        z-index: 4;
-        margin-right: 58px;
+    .menu-hamb.on .two {
+        width: 28px;
+    }
+
+    .menu-hamb.on .tree {
+        width: 28px;
     }
 
     .navbarlogo {
         z-index: 4;
     }
+
+    .navbarmenu {
+        display: none;
+    }
+
+    .navbarmenu.on {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        margin-top: 500px;
+        margin-right: 20px;
+    }
+
+    .navbarmenu.on a{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        transition: color;
+    }
+
+    .navbarmenu.on span {
+        display: none;
+    }
+}
 
 @media (max-width: 663px) {
     .mainforimages {
@@ -429,9 +447,29 @@
         padding: 15px 35px;
     }
 
-    .navbarlogo {
-        transform: scale(0.8);
+    .navbarbutton.on {
+        display: none;
     }
+
+    .navbarlogo {
+        transform: scale(0.9);
+    }
+
+    .navbarmenu.on {
+        position: absolute;
+        right: 8px;
+    }
+}
+@media (max-width: 450px) {
+    .navbarmenu.on {
+        right: 0px;
+}
+
+@media (max-width: 412px) {
+    .navbarmenu.on {
+        left: 6px;
+}
+
 }
 
 @media (max-width: 401px) {
