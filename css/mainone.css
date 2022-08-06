@@ -1,0 +1,114 @@
+#mainone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 119px;
+}
+
+.maintext {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maintext h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+}
+
+.maintext h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.maintext h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.mainbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.mainbuttons a{
+    margin: 10px;
+}
+
+.mainbuttontryforfree {
+    border: 1px solid white;
+    background-color: blue;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.mainbuttonlearnmore {
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;  
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.mainscreens {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: none;
+    flex-direction: column;
+}
+
+.mainscreens img {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.mainscreensbackgroundbottom {
+        height: 150px;
+        width: 100%;
+        background: rgb(14,14,14);
+        background: linear-gradient(180deg, rgba(14,14,14,1) 0%, rgba(14,14,14,0.773546918767507) 80%, rgba(0,212,255,0) 100%);
+}
+
+.gradient {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 820px;
+    background: rgb(14,14,14);
+    background: linear-gradient(0deg, #0d0d0d 30%, #0D0D0D90 60%, #0d0d0d20 90%, #0d0d0d05 100%);
+}

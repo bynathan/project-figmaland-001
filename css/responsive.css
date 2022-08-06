@@ -1,0 +1,502 @@
+@media (max-width: 1112px) {
+    .navbarlogo {
+        margin-left: 10px;
+    }
+
+    .buttoncontainer {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .maintreephotostwo{
+        display: none;
+    }
+
+    .iconone {
+        width: 26px;
+        height: 24px;
+    }
+
+    .icontwo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icontree {
+
+        width: 42px;
+        height: 19px;
+    }
+}
+
+@media (max-width: 1029px) {
+
+    .maintext h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .maintext h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 70px;
+        color: white;
+        margin-bottom: 17px;
+    }
+    
+    .maintext h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+    }
+
+    .iconone {
+        width: 22px;
+        height: 20px;
+    }
+
+    .icontwo {
+        width: 26px;
+        height: 26px;
+    }
+
+    .icontree {
+        width: 38px;
+        height: 15px;
+    }
+
+    .maintwomenu h1{
+        color: white;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .menus h2 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+    
+    .menus h3 {
+        color: white;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    
+    .menus h4 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+
+    .menus {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 998px) {
+    .maintreephotosone img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 996px) {
+
+    .maintwomenu h1{
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .menus h2 {
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+    
+    .menus h3 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    
+    .menus h4 {
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+
+    .gradient {
+        top: 700px;
+    }
+}
+
+@media (max-width: 916px) {
+
+    .imgfeatures {
+        display: none;
+    }
+
+    .imgfeaturesresponsive {
+        display: flex;
+    }
+
+    .maintwofeature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconone {
+        width: 22px;
+        height: 20px;
+    }
+
+    .icontwo {
+        width: 26px;
+        height: 26px;
+    }
+
+    .icontree {
+
+        width: 32px;
+        height: 14px;
+    }
+    
+    .maintwomenu h1{
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .menus h2 {
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+    
+    .menus h3 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    
+    .menus h4 {
+        color: white;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+
+    .maintwomenu {
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 865px) {
+    #footerfull {
+        max-width: 800px;
+    }
+
+    .footermenu {
+        margin-left: 50px;
+    }
+
+    .footerabout {
+        margin-right: 10px ;
+    }
+}
+
+@media (max-width: 827px) {
+    .mainforimages {
+        transform: scale(0.8);
+    }
+
+    .gradient {
+        top: 650px
+    }
+}
+
+@media (max-width: 800px) {
+
+    .maintreephotosone {
+        grid-template-columns: 1fr;
+    }
+
+    .maintreephotosone img {
+        width: 280px;
+    }
+
+    .footerabout {
+        transform: scale(0.9);
+    }
+
+    .footermenu {
+        transform: scale(0.9);
+    }
+}
+/* MENUHAMB */
+@media (max-width: 730px) {
+    .gradient {
+        top: 550px
+    }
+
+    .maintext h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 55px;
+        color: white;
+    }
+    
+    .maintext h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 55px;
+        color: white;
+        margin-bottom: 17px;
+    }
+    
+    .maintext h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+    }
+
+    .navbarmenu {
+        display: none;
+    }
+
+    .testegeral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footermenu {
+        flex-direction: column;
+        transform: scale(1.0);
+    }
+
+    .footermenu h2 {
+    }
+
+    .marginh1menu {
+        margin-top: 70px;
+    }
+
+    .footerabout {
+        transform: scale(1.0);
+        margin-top: 70px;
+    }
+    
+    .menu-hamb {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-bottom: 2px;
+    }
+
+    .menu-hamb.on{
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        background-color: black;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .onetwotree.on{
+        position: normal;
+        margin-top: 48px;
+        margin-right: 10px;
+    }
+
+    .two {
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .menu-hamb.on .one {
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .navbarbutton.on {
+        z-index: 4;
+        margin-right: 58px;
+    }
+
+@media (max-width: 663px) {
+    .mainforimages {
+        transform: scale(0.7);
+    }
+}
+
+@media (max-width: 623px) {
+    .mainforimages {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+    .imgibm {
+        transform: scale(0.6);
+    }
+
+    .gradient {
+        top: 400px
+    }
+}
+
+@media (max-width: 525px) {
+    .maintext h1 {
+        font-size: 45px;
+    }
+
+    .maintext h2 {
+        font-size: 45px;
+    }
+
+    .maintext h3 {
+        font-size: 12px;
+    }
+
+    .maintwotitle h1 {
+        font-size: 35px;
+    }
+
+    .maintreetitle h1 {
+        font-size: 35px;
+    }
+
+    .mainfortitle h1 {
+        font-size: 35px;
+    }
+
+    .maintwotitle h2 {
+        font-size: 12px;
+    }
+
+    .maintreetitle h2 {
+        font-size: 12px;
+    }
+
+    .mainfortitle h2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbarbutton {
+        font-size: 10px;
+        padding: 15px 35px;
+    }
+}
+
+@media (max-width: 401px) {
+    .maintext h1 {
+        font-size: 35px;
+    }
+
+    .maintext h2 {
+        font-size: 35px;
+    }
+
+    .gradient {
+        top: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 401px) {
+    .maintext h3 {
+        font-size: 10px;
+    }
+
+    .maintwotitle h2 {
+        font-size: 10px;
+    }
+
+    .maintreetitle h2 {
+        font-size: 10px;
+    }
+
+    .mainfortitle h2 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .gradient{
+        display: none;
+    }
+
+    .mainscreensbackgroundbottom {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+
+    main {
+        margin-left: 10px;
+    }
+
+    .navbarbutton {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        margin-left: 23px;
+    }
+
+    .maintext h1{
+        font-size: 30px;
+    }
+
+    .maintext h2{
+        font-size: 30px;
+    }
+
+    .mainbuttontryforfree {
+        font-size: 10px;
+    }
+
+    .mainbuttonlearnmore {
+        font-size: 10px;
+    }
+}
