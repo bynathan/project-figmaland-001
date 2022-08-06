@@ -323,7 +323,7 @@
         position: absolute;
         display: flex;
         align-items: flex-end;
-        background-color: black;
+        background-color: #181818;
         z-index: 3;
         top: 0;
         right: 0;
