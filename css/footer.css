@@ -39,8 +39,11 @@
 }
 
 .footermenu a {
-    color: purple;
+    color: white;
     text-decoration: none;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.1s;
 }
 
 .footerabout {
