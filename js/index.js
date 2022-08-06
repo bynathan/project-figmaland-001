@@ -1,4 +1,4 @@
-window.confirm('Link do Diretorio do Projeto no GitHub: https://github.com/bynathan/projeto-figmaland-001 ')
+window.confirm('Cliquem em OK, para vizualizar o projeto. Link do diretorio do projeto no GitHub: https://github.com/bynathan/projeto-figmaland-001 ')
 
 const menuHambButton = document.getElementsByClassName('menu-hamb');
 const navbarButton = document.getElementsByClassName('navbarbutton');
