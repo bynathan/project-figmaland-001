@@ -522,6 +522,11 @@
         height: 1000px;
         width: 100%;
     }
+
+    .navbarbutton {
+        font-size: 9px;
+        padding: 12px 25px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -530,9 +535,6 @@
         margin-left: 10px;
     }
 
-    .navbarbutton {
-        display: none;
-    }
 }
 
 @media (max-width: 320px) {
