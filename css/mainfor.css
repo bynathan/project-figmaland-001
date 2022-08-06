@@ -43,6 +43,7 @@
     padding: 30px;
     transition: all;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .mainforbutton {
