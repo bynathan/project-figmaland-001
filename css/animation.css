@@ -70,3 +70,7 @@
     transform: scalex(1.8);
     background-color: white;
 }
+
+.navbarmenu.on a:hover{
+    color: blue;
+}
