@@ -539,7 +539,11 @@
 
 @media (max-width: 320px) {
     main {
-        margin-left: 23px;
+        margin-left: 35px;
+    }
+
+    footer {
+        margin-left: 38px;
     }
 
     .maintext h1{
@@ -548,6 +552,10 @@
 
     .maintext h2{
         font-size: 28px;
+    }
+
+    .maintext h3{
+        font-size: 9px
     }
 
     .mainbuttontryforfree {
@@ -562,4 +570,7 @@
         transform: scale(0.8);
     }
 
+    .maintwotitle h2 {
+        font-size: 9px;
+    }
 }
