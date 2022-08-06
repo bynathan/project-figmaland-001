@@ -74,3 +74,15 @@
 .navbarmenu.on a:hover{
     color: blue;
 }
+
+.footermenu h2:hover {
+    color: blue;
+}
+
+.footerphone a:hover {
+    color: rgb(223, 102, 168);
+}
+
+.footerlocation a:hover {
+    color: rgb(223, 102, 168);
+}
