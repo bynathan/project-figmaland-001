@@ -1,1 +1,1 @@
-window.confirm('Link do Diretorio do Projeto: https://github.com/bynathan/meu-portfolio')
+window.confirm('Link do Diretorio do Projeto no GitHub: https://bynathan.github.io/projeto-figmaland-001/')
